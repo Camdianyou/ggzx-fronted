@@ -12,15 +12,6 @@ import 'virtual:svg-icons-register'
 import globalComponent from '@/components'
 // 引入全局样式
 import '@/styles/index.scss'
-import axios from 'axios'
-axios({
-  url: '/api/user/login',
-  method: 'post',
-  data: {
-    username: 'admin',
-    password: '111111',
-  },
-})
 createApp(App)
   // 安装element-plus插件
   .use(ElementPlus, {
