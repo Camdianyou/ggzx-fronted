@@ -5,7 +5,7 @@
 </template>
 
 <script setup lang="tsx">
-const str = "我爱你祖国";
+const str = '我爱你祖国'
 </script>
 
 <style lang="scss">
