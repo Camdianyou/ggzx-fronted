@@ -5,5 +5,5 @@ module.exports = {
   singleQuote: true, // 使用单引号
   disableLanguage: ['vue'],
   htmlWhitespaceSensitivity: 'ignore',
-  trailingComma: 'none' // 函数末尾是否添加逗号，注意这里经常会跟eslint冲突
+  trailingComma: 'none', // 函数末尾是否添加逗号，注意这里经常会跟eslint冲突
 }
